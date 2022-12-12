@@ -1,0 +1,245 @@
+*{
+    font-family: Walsheim, sans-serif;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+li{
+    padding: 5px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+ }
+ header{
+    position: sticky;
+    height: 70px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 1px solid #F5F4F2;
+ }
+.row{
+    position: relative;
+    display: flex;
+}
+.bttn-1{
+    color: white;
+    background-color: #ff424d;
+    border: 2px #ff424d solid;
+    border-radius: 9999px;
+    box-sizing: border-box;
+    font-size: small;
+    padding: 12.5px 18px 12.5px 18px;
+    font-weight: 400;
+    position: relative;
+    width: 151px;
+    height: 50px;
+    display: inline-block;
+    transform: translateX(-2.2em) translateY(-1.4em);
+}
+.bttn-2{
+    color: white;
+    background-color: #ff424d;
+    border: 2px #ff424d solid;
+    border-radius: 9999px;
+    box-sizing: border-box;
+    font-size: small;
+    padding: 12.5px 24px 12.5px 24px;
+    font-weight: 400;
+    position: relative;
+    transform: translateX(38em);
+    width: 7em;
+    height: 3.5em;
+}
+.bttn-1:hover{
+    text-decoration: none;
+    border: #ff424d solid 3px;
+    background-color: #F5F4F2;
+    color: #ff424d;
+}
+.bttn-2:hover{
+    text-decoration: none;
+    color: #F5F4F2;
+}
+.bttn:hover{
+    text-decoration: none;
+    color: #F5F4F2;
+}
+.bttn{
+    color: white;
+    background-color: #ff424d;
+    border: 2px #ff424d solid;
+    border-radius: 9999px;
+    box-sizing: border-box;
+    font-size: medium;
+    padding: 12.5px 24px 12.5px 24px;
+    font-weight: 400;
+    margin: 43%;
+}
+.search-bar{
+    border-radius: 9999px;
+    cursor: default;
+    position: relative;
+    width: 275px;
+    height: 50px;
+}
+.search-bar1{
+    display: inline-flex;
+    border-radius: 9999px;
+    cursor: default;
+    position: absolute
+    width: 29em;
+    height: 3.5em;
+    transform: translateX(24.5em);
+    padding: 2em;
+}
+form{
+    display: flex;
+    align-items: center;
+
+}
+#nav-logo{
+    width: 40px;
+    height: 40px;
+    transform: translateY(-4px) translateX(-7px);
+}
+ 
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    font-family: aktiv-grotesk, sans-serif;
+    height: 65px;
+}
+.input1{
+    border-radius: 9999px;
+    border: none;
+    position: absolute;
+    background-color:rgb(245, 244, 242);
+    text-align: left;
+    z-index: 1;
+    width: 247px;
+    height: 55px;
+    transform: translateX(10em)translateY(0.5em);
+    padding-left: 2em;
+}
+
+.input2{
+    border-radius: 9999px;
+    border: none;
+    position: absolute;
+    background-color:rgb(245, 244, 242);
+    text-align: left;
+    z-index: 1;
+    width: 36em;
+    height: 3.5em;
+    padding-left: 2em;
+}
+
+.title{
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    z-index: -1;
+}
+.get-started{
+    align-content: center;
+    display: flex;
+    position: relative;
+}
+section{
+    position: relative;
+    align-content: center;
+}
+
+button{
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+.row img{
+    border-radius: 5px;
+}
+.row1 img{
+    border-radius: 5px;
+}
+.row1{
+    display: flex;
+    transform: translateX(-9em);
+}
+.animation-img{
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    padding: 2.5px;
+    margin: 15px;
+    display: flex;
+    position: relative;
+    animation: roll 80s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+.wrapper{
+    padding: 2em;
+    position: relative;
+}
+.lose-item{
+    transform: translateY(6px) translateX(-90px);
+}
+.lose-item:hover{
+    text-decoration: underline;
+}
+.sbmit{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    z-index: 1;
+    color: gray;
+    transform: translateX(10.2em) translateY(0.455em);
+}
+.sbmit2{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    z-index: 1;
+    color: gray;
+}
+#bttn-1{
+    position: relative;
+    transform: translateX(115px) translateY(10px);
+}
+#log-in{
+    position: relative;
+    transform: translateY(10px) translateX(95px);
+    padding-left: 18px;
+}
+#icon{
+    position: relative;
+    transform: translateX(-37px);
+}
+#dropdown1{
+    position: relative;
+    transform: translateX(-72px);
+}
+#dropdown2{
+    position: relative;
+    transform: translateX(-88px);
+}
+#dropdown3{
+    position: relative;
+    transform: translateX(-95px);
+}
+
+@keyframes roll {
+    0%{transform: translateX(0%);}
+    50%{transform: translateX(-500%); }
+    100%{transform: translateX(100%);}
+}
+@media{
+
+}
