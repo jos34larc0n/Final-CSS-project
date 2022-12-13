@@ -165,13 +165,6 @@ button{
 .row img{
     border-radius: 5px;
 }
-.row1 img{
-    border-radius: 5px;
-}
-.row1{
-    display: flex;
-    transform: translateX(-9em);
-}
 .animation-img{
     border-radius: 5px;
     width: 200px;
@@ -240,6 +233,40 @@ button{
     50%{transform: translateX(-500%); }
     100%{transform: translateX(100%);}
 }
-@media{
-
+@media (max-width: 800px){
+    .section-1{
+        width: ;
+        height: ;
+        position: relative;
+    }
+    .section-2{
+        width: ;
+        height: ;
+        position: relative;
+    }
+    main{
+        width: ;
+        height: ;
+        position: relative;
+    }
+    header{
+        width: ;
+        height: ;
+        position: relative;
+    }
+    .wrapper{
+        width: ;
+        height: ;
+        position: relative;
+    }
+    .animation-img{
+        width: ;
+        height: ;
+        position: relative;
+    }
+    nav{
+        position: relative;
+        width: 10em;
+        height: 2em;
+    }
 }
